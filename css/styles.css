@@ -197,18 +197,14 @@ ul {
 }
 
 .envelope-svg {
-    display: block;
-    width: 16px;
-    height: 12px;
+    /* display: block; */
     margin-right: 10px;
     fill: var(--secondary-text-color);
 
 }
 
 .tel-svg {
-    display: block;
-    width: 10px;
-    height: 16px;
+    /* display: block; */
     margin-right: 10px;
     fill: var(--secondary-text-color);
 
@@ -224,6 +220,15 @@ ul {
     color: var(--accent-color);
 }
 
+.contakts-header:hover .envelope-svg,
+.contakts-header:focus .envelope-svg {
+    fill: var(--accent-color);
+}
+
+.contakts-header:hover .tel-svg,
+.contakts-header:focus .tel-svg {
+    fill: var(--accent-color);
+}
 /* контакты футер */
 
 .contakts-footer {
